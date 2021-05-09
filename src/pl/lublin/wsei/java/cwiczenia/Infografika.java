@@ -63,4 +63,8 @@ public class Infografika {
             wysokosc = "";
         }
     }
+    public void print()
+    {
+        System.out.println("Infografika: \nTytuł: " + tytul + "\nAdres strony: " + adresStrony + "\nAdres grafiki: " + adresGrafiki + "\nAdres miniaturki: " + adresMiniaturki + "\nRozmiary: " + szerokosc + "x" + wysokosc );
+    }
 }
